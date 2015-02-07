@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var display: UILabel!
     
     var userIsInTheMiddleOfTypingANumber = false
-    
+    var brain = CalculatorBrain()
     
     @IBAction func appendDigit(sender: UIButton) {
         let digit = sender.currentTitle!
@@ -26,13 +26,13 @@ class ViewController: UIViewController {
         
     }
     
-    var operandStack = Array<Double>()
-    
     @IBAction func enter() {
         userIsInTheMiddleOfTypingANumber = false
-        operandStack.append(displayValue)
-        println("operandStack = \(operandStack)")
-        
+        if let result = brain.pushOperand(displayValue){
+            displayValue = result
+        }else{
+            
+        }
     }
     
     var displayValue:Double{
@@ -50,39 +50,14 @@ class ViewController: UIViewController {
         if userIsInTheMiddleOfTypingANumber{
             enter()
         }
-        switch operation{
-        case "×":
-            performOperation({(op1:Double, op2:Double) -> Double in
-                return op1 * op2})
-        case "÷":
-            performOperation({(op1, op2) in
-                return op2 / op1
-            })
-        case "+":
-            performOperation({(op1, op2) in
-                op1 + op2
-            })
-        case "−":
-            performOperation {$1 - $0}
-        case "√": performOperation {sqrt($0)}
-        default: break
+        if let operation = sender.currentTitle{
+            if let result = brain.performOperation(operation){
+                displayValue = result
+            }else{
+                displayValue = 0.0
+            }
         }
     }
-    
-    func performOperation(operation: (Double,Double) -> Double ){
-        if operandStack.count >= 2{
-            displayValue = operation(operandStack.removeLast(),operandStack.removeLast())
-            enter()
-        }
-    }
-    
-    func performOperation(operation: (Double) -> Double ){
-        if operandStack.count >= 1{
-            displayValue = operation(operandStack.removeLast())
-            enter()
-        }
-    }
-    
     
 }
 
