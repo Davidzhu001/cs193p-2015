@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  assignment1
+//  Calculator
 //
-//  Created by Wen Shao on 7/02/2015.
+//  Created by Wen Shao on 5/02/2015.
 //  Copyright (c) 2015 Wen Shao. All rights reserved.
 //
 

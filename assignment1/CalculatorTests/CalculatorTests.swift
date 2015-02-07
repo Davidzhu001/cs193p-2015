@@ -1,15 +1,15 @@
 //
-//  assignment1Tests.swift
-//  assignment1Tests
+//  CalculatorTests.swift
+//  CalculatorTests
 //
-//  Created by Wen Shao on 7/02/2015.
+//  Created by Wen Shao on 5/02/2015.
 //  Copyright (c) 2015 Wen Shao. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class assignment1Tests: XCTestCase {
+class CalculatorTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

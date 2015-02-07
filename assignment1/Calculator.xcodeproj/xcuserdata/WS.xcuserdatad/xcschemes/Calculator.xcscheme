@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "542DB17D1A85D07B00E826C9"
-               BuildableName = "assignment1.app"
-               BlueprintName = "assignment1"
-               ReferencedContainer = "container:assignment1.xcodeproj">
+               BlueprintIdentifier = "544198A61A8312D40053B961"
+               BuildableName = "Calculator.app"
+               BlueprintName = "Calculator"
+               ReferencedContainer = "container:Calculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "542DB1921A85D07B00E826C9"
-               BuildableName = "assignment1Tests.xctest"
-               BlueprintName = "assignment1Tests"
-               ReferencedContainer = "container:assignment1.xcodeproj">
+               BlueprintIdentifier = "544198BB1A8312D40053B961"
+               BuildableName = "CalculatorTests.xctest"
+               BlueprintName = "CalculatorTests"
+               ReferencedContainer = "container:Calculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "542DB1921A85D07B00E826C9"
-               BuildableName = "assignment1Tests.xctest"
-               BlueprintName = "assignment1Tests"
-               ReferencedContainer = "container:assignment1.xcodeproj">
+               BlueprintIdentifier = "544198BB1A8312D40053B961"
+               BuildableName = "CalculatorTests.xctest"
+               BlueprintName = "CalculatorTests"
+               ReferencedContainer = "container:Calculator.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "542DB17D1A85D07B00E826C9"
-            BuildableName = "assignment1.app"
-            BlueprintName = "assignment1"
-            ReferencedContainer = "container:assignment1.xcodeproj">
+            BlueprintIdentifier = "544198A61A8312D40053B961"
+            BuildableName = "Calculator.app"
+            BlueprintName = "Calculator"
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "542DB17D1A85D07B00E826C9"
-            BuildableName = "assignment1.app"
-            BlueprintName = "assignment1"
-            ReferencedContainer = "container:assignment1.xcodeproj">
+            BlueprintIdentifier = "544198A61A8312D40053B961"
+            BuildableName = "Calculator.app"
+            BlueprintName = "Calculator"
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "542DB17D1A85D07B00E826C9"
-            BuildableName = "assignment1.app"
-            BlueprintName = "assignment1"
-            ReferencedContainer = "container:assignment1.xcodeproj">
+            BlueprintIdentifier = "544198A61A8312D40053B961"
+            BuildableName = "Calculator.app"
+            BlueprintName = "Calculator"
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
